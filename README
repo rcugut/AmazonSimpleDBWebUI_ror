@@ -15,7 +15,7 @@ API calls exposed by this implementation:
 	params: 
 		'domain' (string) simpldb domain name
 		'where_clause' (string optional) text after the 'where' keyword in the SQL syntax (ex: name LIKE 'John%')
-	returns: returns array of hashes
+	returns: array of hashes
 				item { name: 'item_name', 
 						attrs: [ { name: 'attr_name', values: [ 'value1', 'value2' ]}, ...  ]
 	
