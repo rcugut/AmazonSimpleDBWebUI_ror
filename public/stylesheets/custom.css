@@ -1,0 +1,101 @@
+.container {
+	width: 1100px;
+}
+
+body {
+	background: #ffffff;
+}
+
+header {
+	padding-top: 20px;
+}
+
+header img {
+	padding: 1em;
+	background: #fff;
+}
+
+section {
+	margin-top: 1em;
+	font-size: 120%;
+	padding: 20px;
+	background: #fff;
+}
+
+section h1 {
+	font-size: 200%;
+}
+
+/* Links */
+
+a {
+	color: #036;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #039;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #036;
+}
+
+/* Login */
+
+table.login_table {
+	background-color: #fff;
+	width: auto;
+}
+
+table.login_table tr {
+	background-color: #fff;
+}
+
+table.login_table tr td {
+	background-color: #fff;
+}
+
+
+
+/* Navigation */
+
+nav {
+	float: right;
+}
+
+nav {
+	background-color: #def;
+	padding: 0 10px;
+	white-space: nowrap;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 4px 0;
+}
+
+nav ul li a {
+	padding: 0 5px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+/* ======= misc ======== */
+
+.round {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
