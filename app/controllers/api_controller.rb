@@ -11,8 +11,9 @@ class ApiController < ApplicationController
 
 
 
-
-
+	#
+	# params: none
+	# returns array
 	def list_domains
 		render :json => @sdb.list_domains()[:domains]
 	end
@@ -23,6 +24,10 @@ class ApiController < ApplicationController
 
 
 
+	#
+	# params: 
+	#   domain - (string) simpledb domain name
+	#   where_clause - (string) the where clause (ex: name LIKE 'John%')
 	#
 	# returns array of hashes
 	# item { name: 'item_name',
